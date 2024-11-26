@@ -1,0 +1,51 @@
+
+html, body {
+    height: 100%; /* Assurez-vous que la hauteur de la page prend 100% de la fenêtre */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Colonne pour que le contenu soit en haut et le footer en bas */
+}
+
+.container {
+    flex: 1; /* Prend tout l'espace disponible entre le header et le footer */
+}
+
+footer {
+    background-color: #f8f9fa; /* Couleur du footer */
+    padding: 10px 0;
+    text-align: center;
+}
+.card-mes-essentiels { background-color: #FFC107; border-color: #FFC107; }
+.card-pedagogie { background-color: #FF5722; border-color: #FF5722; }
+.card-orientation { background-color: #E91E63; border-color: #E91E63; }
+.card-vie-etudiante { background-color: #FF5252; border-color: #FF5252; }
+.card-mon-profil { background-color: #00BCD4; border-color: #00BCD4; }
+.card-scolarite { background-color: #03A9F4; border-color: #03A9F4; }
+.card-bibliotheque { background-color: #8BC34A; border-color: #8BC34A; }
+.card-header { color: white; font-weight: bold; }
+
+li {
+    border-bottom: 1px solid #ddd; /* Ligne de séparation */
+    padding-bottom: 5px; /* Espacement entre le texte et la ligne */
+    margin-bottom: 10px; /* Espacement entre les éléments */
+}
+
+/* Supprimer la ligne pour le dernier élément de chaque liste */
+li:last-child {
+    border-bottom: none;
+}
+    a {
+    color: black; /* Texte noir par défaut */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+    color: black; /* Texte noir au survol */
+    text-decoration: underline; /* Facultatif : ajouter un soulignement au survol */
+}
+
+.main-header { background-color: #343a40; color: white; padding: 10px 0; }
+.main-header h1 { margin: 0; font-size: 24px; }

@@ -17,7 +17,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h1>Starter</h1>
                 <nav>
-                    <a href="#" class="text-white me-3">Retour sur Kalata</a>
+                    <a href="https://kalata.cm" class="text-white me-3">Retour sur Kalata</a>
                 </nav>
             </div>
         </div>
